@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\فایل های شخصی\\پروژهای شخصی\\Odin\\OdinProtocol\\OdinProtocol\\OdinProtocol.csproj",
+      "projectUniqueName": "D:\\فایل های شخصی\\پروژهای شخصی\\Odin\\OdinProtocol.csproj",
       "projectName": "OdinProtocol",
-      "projectPath": "D:\\فایل های شخصی\\پروژهای شخصی\\Odin\\OdinProtocol\\OdinProtocol\\OdinProtocol.csproj",
+      "projectPath": "D:\\فایل های شخصی\\پروژهای شخصی\\Odin\\OdinProtocol.csproj",
       "packagesPath": "C:\\Users\\administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\فایل های شخصی\\پروژهای شخصی\\Odin\\OdinProtocol\\OdinProtocol\\obj\\",
+      "outputPath": "D:\\فایل های شخصی\\پروژهای شخصی\\Odin\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
