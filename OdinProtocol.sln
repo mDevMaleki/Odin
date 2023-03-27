@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdinProtocol", "OdinProtocol.csproj", "{4D0045A9-3562-41C0-810F-BFEF44155BAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D0045A9-3562-41C0-810F-BFEF44155BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0045A9-3562-41C0-810F-BFEF44155BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0045A9-3562-41C0-810F-BFEF44155BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0045A9-3562-41C0-810F-BFEF44155BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AA5690B-BB86-4B27-A3B3-145D8294BABB}
+	EndGlobalSection
+EndGlobal
