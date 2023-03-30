@@ -4,10 +4,13 @@ namespace OdinProtocol.Class
 
     public enum kRequest
     {
-         Flash = 0x00,
-         Dump = 0x01,
-         Part = 0x02,
-         End = 0x03
+        Flash = 0x00,
+        Dump = 0x01,
+        Part = 0x02,
+        End = 0x03,
+        EndTransfer = 0x03,
+        EndSession = 0,
+        RebootDevice = 1
     };
 
 
