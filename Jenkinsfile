@@ -29,7 +29,7 @@ pipeline {
   }
   post {
     always {
-      archiveArtifacts(artifacts: 'target/demoapp.jar', fingerprint: true)
+      archiveArtifacts(artifacts: 'bin/Debug/net6.0/OdinProtocol.exe', fingerprint: true)
     }
 
     failure {
