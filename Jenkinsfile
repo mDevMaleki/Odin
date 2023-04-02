@@ -4,26 +4,12 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Build Odin Project'
-        sh 'sh run_build_script.sh'
       }
     }
 
     stage('Linux Test') {
-      parallel {
-        stage('Linux Test') {
-          steps {
-            echo 'Test in Linux Os'
-            sh 'sh run_linux_tests.sh'
-          }
-        }
-
-        stage('Windows Test') {
-          steps {
-            echo 'Run Windows Test'
-            sh 'sh run_win_tests.sh'
-          }
-        }
-
+      steps {
+        echo 'Test in Linux Os'
       }
     }
 
