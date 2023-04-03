@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Build Odin Project Start'
-        bat 'dotnet build %WORKSPACE%\\Odin_main\\OdinProtocol.sln --configuration Release'
+        bat 'dotnet build %WORKSPACE%\\OdinProtocol.sln --configuration Release'
       }
     }
 
