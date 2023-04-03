@@ -8,6 +8,19 @@ pipeline {
       }
     }
 
+    stage('Deploy') {
+      steps {
+        echo 'Deploy Odin'
+        input 'Is it Ok?'
+      }
+    }
+
+    stage('Arshive') {
+      steps {
+        archiveArtifacts(artifacts: 'bin\\Release\\net6.0\\*.*', fingerprint: true)
+      }
+    }
+
   }
   environment {
     dotnet = 'C:\\\\Program Files\\\\dotnet\\\\dotnet.exe'
