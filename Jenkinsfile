@@ -17,7 +17,7 @@ pipeline {
 
     stage('Arshive') {
       steps {
-        archiveArtifacts(artifacts: 'bin\\Release\\net6.0', fingerprint: true)
+        archiveArtifacts(artifacts: 'bin\\Release\\net6.0\\*.*', fingerprint: true)
       }
     }
 
