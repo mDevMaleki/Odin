@@ -12,8 +12,10 @@ namespace OdinProtocol.Class
 
         private char[] data;
 
-        public Packet(uint size) => this.size = size;
-
+        public Packet(uint size)
+        {
+            this.size = size;
+        }
     }
 
 }
